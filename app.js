@@ -1,8 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
-const dotenv = require("dotenv");
-dotenv.config({ path: "./config.env" });
-
+// const dotenv = require("dotenv");
+// dotenv.config({ path: "./config.env" });
 // if (process.env.NODE_ENV === "development") {
 //   morgan("dev");
 // }
